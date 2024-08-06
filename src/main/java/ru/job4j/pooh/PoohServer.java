@@ -62,7 +62,7 @@ public class PoohServer {
         }
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         var pooh = new PoohServer();
         pooh.runSchemas();
         pooh.runServer();
